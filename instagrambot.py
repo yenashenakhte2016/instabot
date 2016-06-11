@@ -10,13 +10,13 @@ import sqlite3
 
 
 class bot:  
-    bot_username = "Your Bot Username"              -- write your bot username without -@-
-    bot_token = "Your Bot Token"                    -- IMPORTENT
-    admin_id = "190142886"                          -- like: "44444046"
-    help_text = "Help Text"                         -- Use Bytes CODE For Emoji
-    settins_text = "This Part Need Some config"     -- will fix in next version
-    pause_text = "Pause Bot Text"                   -- Pm after Pause Bot
-    continue_text = "Continue Bot Text"             -- Pm after continue Bot
+    bot_username = "Your Bot Username"              # write your bot username without -@-
+    bot_token = "Your Bot Token"                    # IMPORTENT
+    admin_id = "190142886"                          # like: "44444046"
+    help_text = "Help Text"                         # Use Bytes CODE For Emoji
+    settins_text = "This Part Need Some config"     # will fix in next version
+    pause_text = "Pause Bot Text"                   # Pm after Pause Bot
+    continue_text = "Continue Bot Text"             # Pm after continue Bot
 
     chats = {}
 
