@@ -9,14 +9,14 @@ from config import Config
 import sqlite3
 
 
-class bot:
-    bot_username = "testtttttttbot"
-    bot_token = "216612345:AAEh_jC_1-ihajvvHIBLDi1jjy_ChWoXnP4"
-    admin_id = "190142886"
-    help_text = "kiram"
-    settins_text = "kir babat"
-    pause_text = "kir nnat"
-    continue_text = "kiret"
+class bot:  
+    bot_username = "Your Bot Username"              -- write your bot username without -@-
+    bot_token = "Your Bot Token"                    -- IMPORTENT
+    admin_id = "190142886"                          -- like: "44444046"
+    help_text = "Help Text"                         -- Use Bytes CODE For Emoji
+    settins_text = "This Part Need Some config"     -- will fix in next version
+    pause_text = "Pause Bot Text"                   -- Pm after Pause Bot
+    continue_text = "Continue Bot Text"             -- Pm after continue Bot
 
     chats = {}
 
