@@ -10,20 +10,20 @@ import sqlite3
 
 
 class bot:
-    bot_username = Config.bot_username
-    bot_token = Config.bot_token
-    admin_id = Config.admin_id
-    help_text = Config.help_text
-    settins_text = Config.settings_text
-    pause_text = Config.pause_text
-    continue_text = Config.continue_text
+    bot_username = "testtttttttbot"
+    bot_token = "216612345:AAEh_jC_1-ihajvvHIBLDi1jjy_ChWoXnP4"
+    admin_id = "190142886"
+    help_text = "kiram"
+    settins_text = "kir babat"
+    pause_text = "kir nnat"
+    continue_text = "kiret"
 
     chats = {}
 
-    emoji_oh = '😱'
-    emoji_silent = '😁'
-    emoji_earth_wireframe = '🌐'
-    emoji_number = '#⃣'
+    emoji_oh = '\xF0\x9F\x98\xB1'
+    emoji_silent = '\xF0\x9F\x98\x81'
+    emoji_earth_wireframe = '\xF0\x9F\x8C\x90'
+    emoji_number = '\x23\xE2\x83\xA3'
 
     def sqlite_execute(self, query, name, debug = False):
         try:
@@ -191,8 +191,8 @@ class bot:
             return None
     
     def send_msg(self, msgs, chat_id, action=False):
-        options = ['¡No puedo detenerme!', '¡Si!', '¡Otra!', '¡Mas fotos!', '¡Maaaaaas!', '¡Quiero ver mas!']
-        option = '📷 {0}'.format(random.choice(options))
+        options = ['No puedo detenerme!', 'Si!', 'Otra!', 'Mas fotos!', 'Maaaaaas!', 'Quiero ver mas!']
+        option = '\xF0\x9F\x93\xB7 {0}'.format(random.choice(options))
         keys = [[option]]
         keyboard = {
             "keyboard": keys,
@@ -245,7 +245,7 @@ class bot:
             #for user in users_db:
             #    data = {
             #        'chat_id': user['tid'],
-            #        'text': 'Buenos días!',
+            #        'text': 'Buenos dias!',
             #    }
             #    r = self.send_to_bot('sendMessage', data = data)
 
