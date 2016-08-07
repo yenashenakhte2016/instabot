@@ -3,7 +3,7 @@ import json
 import random
 import requests
 
-from config import Config
+
 
 
 import sqlite3
