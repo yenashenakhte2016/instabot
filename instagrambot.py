@@ -10,9 +10,9 @@ import sqlite3
 
 
 class bot:  
-    bot_username = "Your Bot Username"              # write your bot username without -@-
-    bot_token = "Your Bot Token"                    # IMPORTENT
-    admin_id = "190142886"                          # like: "44444046"
+    bot_username = "@InstagramRbot"              # write your bot username without -@-
+    bot_token = "243800432:AAH8H6gpLmMdlFwxaRLI93qLCi5NedsenJs"                    # IMPORTENT
+    admin_id = "240616380"                          # like: "44444046"
     help_text = "Help Text"                         # Use Bytes CODE For Emoji
     settins_text = "This Part Need Some config"     # will fix in next version
     pause_text = "Pause Bot Text"                   # Pm after Pause Bot
